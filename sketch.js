@@ -18,7 +18,7 @@ function setup() {
   stats = createP("Stats");
   stats.class("stats");
 
-  targetPhrase = "To be or not to be.";
+  targetPhrase = "She sells sea shells on the sea floor.";
   populationSize = 200;
   mutationRate = 0.01;
 
