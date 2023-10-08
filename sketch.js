@@ -11,7 +11,7 @@ function setup() {
   bestPhrase = createP("Best phrase:");
   bestPhrase.class("best");
 
-  allPhrases = createP("All phrases:");
+  allPhrases = createP();
   allPhrases.position(600, 10);
   allPhrases.class("all");
 
@@ -58,5 +58,5 @@ function displayInfo() {
 
   stats.html(statstext);
 
-  allPhrases.html("All phrases:<br>" + population.allPhrases());
+  allPhrases.html(population.allPhrases());
 }

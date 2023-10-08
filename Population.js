@@ -83,7 +83,7 @@ class Population {
   allPhrases() {
     let everything = "";
 
-    let displayLimit = min(this.population.length, 50);
+    let displayLimit = min(this.population.length, 20);
 
     for (let i = 0; i < displayLimit; i++) {
       everything += this.population[i].genes.join("") + "<br>";
